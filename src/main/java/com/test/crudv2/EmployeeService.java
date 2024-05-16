@@ -23,10 +23,7 @@ public class EmployeeService {
     public Employee updateEmployee(Employee employee){
         return employeeRepository.save(employee);
     }
-    public void deleteEmployeeById(Long employeeID){
+    public void deleteEmployeeById(Long employeeId){
         employeeRepository.deleteById(employeeId);
     }
-   /*---------------------------------------------*/
-    /*the errors will be fixed in future commits*/
-   /*---------------------------------------------*/
 }
